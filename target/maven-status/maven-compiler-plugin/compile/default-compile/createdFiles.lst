@@ -1,0 +1,7 @@
+OnlinerAutomationTest.class
+pages\AddAdPage.class
+pages\MessagePage.class
+pages\AbstractPage.class
+steps\Steps.class
+pages\CurrencyExchangePage.class
+pages\MainPage.class
