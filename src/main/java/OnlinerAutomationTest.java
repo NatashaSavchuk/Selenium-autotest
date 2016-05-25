@@ -1,14 +1,15 @@
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import steps.Steps;
-
 public class OnlinerAutomationTest {
     private Steps steps;
-    private final String USERNAME = "testselen2015@yandex.ru";
-    private final String PASSWORD = "test123";
-    private final String USERID = "1942578";
+    private final String USERNAME = "tes.testuser2015@yandex.ru";
+    private final String PASSWORD = "testtest1111";
+    private final String USERID = "1815099";
 
     private final String TITLE = "Куплю холодильник";
     private final String TEXTAD = "Куплю холодильник. Не дорого";
@@ -19,7 +20,7 @@ public class OnlinerAutomationTest {
 
     private final Integer VALUECOUNTMANY = 56;
 
-    private final String NAME = "Natalia32";
+    private final String NAME = "Daria32";
     private final String TITLE2 = "Событие стостоится";
     private final String TEXT = "Событие состоится в среду вечером.";
 
